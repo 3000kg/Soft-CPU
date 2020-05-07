@@ -1,0 +1,102 @@
+? FACTORIAL2
+
+JMP :start
+
+
+:factorial
+? ______________________________
+
+? max
+	POP r1
+
+? min
+	POP r2
+
+? startValue
+	PUSH 1
+
+
+	PUSH r2
+	PUSH r1
+
+
+
+? if reached
+	JB :return
+
+	PUSH r2
+	PUSH r1
+
+:cycle
+
+	? max
+		POP r1
+
+
+	? min
+		POP r2
+
+
+	? curVar
+		POP r3
+		PUSH r3
+
+
+		PUSH r2
+		PUSH 1
+		ADD
+
+        POP r2
+        PUSH r2
+
+		PUSH r1
+
+
+		?if reached
+			JB :return
+
+
+	? calculation
+		PUSH r2
+		MUL
+
+		PUSH r2
+		PUSH r1
+
+	CALL :cycle
+
+:return
+
+RET
+
+? end factorial
+? ______________________________
+
+
+
+
+
+:start
+
+START
+
+
+
+? From
+	PUSH 1
+
+? To
+	PUSH 6
+
+	CALL :factorial
+
+	POP r1
+	PRINT r1
+
+	END
+
+
+
+:if_error
+
+	END

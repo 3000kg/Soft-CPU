@@ -1,0 +1,135 @@
+
+LOG_INITIALIZATION #52
+
+=================================================
+	|	act 2316: Starting CPU...
+	|	
+	|	___ptrCheck_CALL___
+	|	|
+	|	|	act 2317: Pointer ((*machine).instructionsCache) checking...
+	|	|	
+	|	|___ptrCheck_END___
+	|
+	|	
+	|	___ptrCheck_CALL___
+	|	|
+	|	|	act 2318: Pointer ((*machine).RAM.area) checking...
+	|	|	
+	|	|___ptrCheck_END___
+	|
+	|	
+	|	___ptrCheck_CALL___
+	|	|
+	|	|	act 2319: Pointer ((*machine).registers.r) checking...
+	|	|	
+	|	|___ptrCheck_END___
+	|
+	|	act 2320: Jumping
+	|	act 2321: Start of the programm
+	|	
+	|	____main_CALL___
+	|	|
+	|	|	act 2364: Data pushed
+	|	|	act 2407: Data pushed
+	|	|	act 2408: Calling function...
+	|	|	
+	|	|	___unnamed_function_CALL___
+	|	|	|
+	|	|	|	act 2505: Poped to register
+	|	|	|	act 2560: Poped to register
+	|	|	|	act 2603: Data pushed
+	|	|	|	act 2646: Register pushed
+	|	|	|	act 2787: Register pushed
+	|	|	|	act 2788: JB start...
+	|	|	|	act 2963: Register pushed
+	|	|	|	act 3014: Register pushed
+	|	|	|	act 3077: Poped to register
+	|	|	|	act 3140: Poped to register
+	|	|	|	act 3203: Poped to register
+	|	|	|	act 3254: Register pushed
+	|	|	|	act 3305: Register pushed
+	|	|	|	act 3356: Data pushed
+	|	|	|	act 3357: Summarizing two numbers...
+	|	|	|	act 3594: Poped to register
+	|	|	|	act 3645: Register pushed
+	|	|	|	act 3696: Register pushed
+	|	|	|	act 3697: JB start...
+	|	|	|	act 3872: Register pushed
+	|	|	|	act 3873: Multiplying two numbers
+	|	|	|	act 4098: Register pushed
+	|	|	|	act 4149: Register pushed
+	|	|	|	act 4150: Calling function...
+	|	|	|	
+	|	|	|	___unnamed_function_CALL___
+	|	|	|	|
+	|	|	|	|	act 4255: Poped to register
+	|	|	|	|	act 4318: Poped to register
+	|	|	|	|	act 4381: Poped to register
+	|	|	|	|	act 4432: Register pushed
+	|	|	|	|	act 4483: Register pushed
+	|	|	|	|	act 4534: Data pushed
+	|	|	|	|	act 4535: Summarizing two numbers...
+	|	|	|	|	act 4772: Poped to register
+	|	|	|	|	act 4823: Register pushed
+	|	|	|	|	act 4874: Register pushed
+	|	|	|	|	act 4875: JB start...
+	|	|	|	|	act 5050: Register pushed
+	|	|	|	|	act 5051: Multiplying two numbers
+	|	|	|	|	act 5276: Register pushed
+	|	|	|	|	act 5327: Register pushed
+	|	|	|	|	act 5328: Calling function...
+	|	|	|	|	
+	|	|	|	|	___unnamed_function_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 5531: Poped to register
+	|	|	|	|	|	act 5594: Poped to register
+	|	|	|	|	|	act 5657: Poped to register
+	|	|	|	|	|	act 5708: Register pushed
+	|	|	|	|	|	act 5759: Register pushed
+	|	|	|	|	|	act 5810: Data pushed
+	|	|	|	|	|	act 5811: Summarizing two numbers...
+	|	|	|	|	|	act 6048: Poped to register
+	|	|	|	|	|	act 6099: Register pushed
+	|	|	|	|	|	act 6150: Register pushed
+	|	|	|	|	|	act 6151: JB start...
+	|	|	|	|	|	act 6326: Register pushed
+	|	|	|	|	|	act 6327: Multiplying two numbers
+	|	|	|	|	|	act 6552: Register pushed
+	|	|	|	|	|	act 6603: Register pushed
+	|	|	|	|	|	act 6604: Calling function...
+	|	|	|	|	|	
+	|	|	|	|	|	___unnamed_function_CALL___
+	|	|	|	|	|	|
+	|	|	|	|	|	|	act 6717: Poped to register
+	|	|	|	|	|	|	act 6780: Poped to register
+	|	|	|	|	|	|	act 6843: Poped to register
+	|	|	|	|	|	|	act 6894: Register pushed
+	|	|	|	|	|	|	act 6945: Register pushed
+	|	|	|	|	|	|	act 6996: Data pushed
+	|	|	|	|	|	|	act 6997: Summarizing two numbers...
+	|	|	|	|	|	|	act 7234: Poped to register
+	|	|	|	|	|	|	act 7285: Register pushed
+	|	|	|	|	|	|	act 7336: Register pushed
+	|	|	|	|	|	|	act 7337: JB start...
+	|	|	|	|	|	|	act 7462: head < prev; jumped
+	|	|	|	|	|	|	act 7463: Returning...
+	|	|	|	|	|	|	
+	|	|	|	|	|	|___unnamed_function_END___
+	|	|	|	|	|
+	|	|	|	|	|	act 7526: Returning...
+	|	|	|	|	|	
+	|	|	|	|	|___unnamed_function_END___
+	|	|	|	|
+	|	|	|	|	act 7589: Returning...
+	|	|	|	|	
+	|	|	|	|___unnamed_function_END___
+	|	|	|
+	|	|	|	act 7652: Returning...
+	|	|	|	
+	|	|	|___unnamed_function_END___
+	|	|
+	|	|	act 7777: Poped to register
+	|	|	act 7778: Register printed
+	|	|	
+	|	|____main_END___
+	|

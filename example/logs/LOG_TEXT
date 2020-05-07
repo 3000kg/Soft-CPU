@@ -1,0 +1,2846 @@
+
+LOG_INITIALIZATION #2
+
+=================================================
+	|	
+	|	___textCtor_CALL___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 1: Pointer (textStruct) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___openFile_CALL___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2: Pointer (text) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 3: Pointer (path) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 4: Pointer (rules) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___fileIsClosed_CALL___
+	|	|	|	|
+	|	|	|	|	act 5: Checking if file is closed...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 6: Pointer (text) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___fileIsClosed_END___
+	|	|	|
+	|	|	|	act 7: Opening file...
+	|	|	|	
+	|	|	|	___readFile_CALL___
+	|	|	|	|
+	|	|	|	|	act 8: Reading file...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 9: Pointer (textStruct) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___fileIsClosed_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 10: Checking if file is closed...
+	|	|	|	|	|	
+	|	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|	|
+	|	|	|	|	|	|	act 11: Pointer (text) checking...
+	|	|	|	|	|	|	
+	|	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|	|
+	|	|	|	|	|	
+	|	|	|	|	|___fileIsClosed_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___getSizeOfFile_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 12: Counting file size...
+	|	|	|	|	|	
+	|	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|	|
+	|	|	|	|	|	|	act 13: Pointer (textStruct) checking...
+	|	|	|	|	|	|	
+	|	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|	|
+	|	|	|	|	|	
+	|	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|	|
+	|	|	|	|	|	|	act 14: Pointer (sizeOfFile) checking...
+	|	|	|	|	|	|	
+	|	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|	|
+	|	|	|	|	|	
+	|	|	|	|	|	___fileIsClosed_CALL___
+	|	|	|	|	|	|
+	|	|	|	|	|	|	act 15: Checking if file is closed...
+	|	|	|	|	|	|	
+	|	|	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|	|	|
+	|	|	|	|	|	|	|	act 16: Pointer (text) checking...
+	|	|	|	|	|	|	|	
+	|	|	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|	|	|
+	|	|	|	|	|	|	
+	|	|	|	|	|	|___fileIsClosed_END___
+	|	|	|	|	|
+	|	|	|	|	|	
+	|	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|	|
+	|	|	|	|	|	|	act 17: Pointer ((*textStruct).file) checking...
+	|	|	|	|	|	|	
+	|	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|	|
+	|	|	|	|	|	
+	|	|	|	|	|___getSizeOfFile_END___
+	|	|	|	|
+	|	|	|	|	act 18: Allocating memory...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 19: Pointer ((*textStruct).file) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___readFile_END___
+	|	|	|
+	|	|	|	
+	|	|	|___openFile_END___
+	|	|
+	|	|	
+	|	|___textCtor_END___
+	|
+	|	
+	|	___formatSpaces_CALL___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 20: Pointer (text) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 21: Allocating memory for the formatted string...
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 22: Pointer (newBuf) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 23: Pointer ((*text).buf) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___countChar_CALL___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 24: Pointer (buf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___countChar_END___
+	|	|
+	|	|	act 25: Formatted line is:
+? FACTORIAL2
+
+JMP :start
+
+
+:factorial
+? ______________________________
+
+? max
+POP r1
+
+? min
+POP r2
+
+? startValue
+PUSH 1
+
+
+PUSH r2
+PUSH r1
+
+
+
+? if reached
+JB :return
+
+PUSH r2
+PUSH r1
+
+:cycle
+
+? max
+POP r1
+
+
+? min
+POP r2
+
+
+? curVar
+POP r3
+PUSH r3
+
+
+PUSH r2
+PUSH 1
+ADD
+
+POP r2
+PUSH r2
+
+PUSH r1
+
+
+?if reached
+JB :return
+
+
+? calculation
+PUSH r2
+MUL
+
+PUSH r2
+PUSH r1
+
+CALL :cycle
+
+:return
+
+RET
+
+? end factorial
+? ______________________________
+
+
+
+
+
+:start
+
+START
+
+
+
+? From
+PUSH 1
+
+? To
+PUSH 4
+
+CALL :factorial
+
+POP r1
+PRINT r1
+
+END
+
+
+
+:if_error
+
+END
+
+
+
+	|	|	
+	|	|___formatSpaces_END___
+	|
+	|	
+	|	___divTextCtor_CALL___
+	|	|
+	|	|	act 26: Dividing text by character (int 10)...
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 27: Pointer (textBuf) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 28: Pointer (result) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 29: Pointer (textBuf) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 30: Found new element!
+	|	|	act 31: Skipping repeating dividing character...
+	|	|	act 32: Found new element!
+	|	|	act 33: Skipping repeating dividing character...
+	|	|	act 34: Skipping repeating dividing character...
+	|	|	act 35: Found new element!
+	|	|	act 36: Found new element!
+	|	|	act 37: Skipping repeating dividing character...
+	|	|	act 38: Found new element!
+	|	|	act 39: Found new element!
+	|	|	act 40: Skipping repeating dividing character...
+	|	|	act 41: Found new element!
+	|	|	act 42: Found new element!
+	|	|	act 43: Skipping repeating dividing character...
+	|	|	act 44: Found new element!
+	|	|	act 45: Found new element!
+	|	|	act 46: Skipping repeating dividing character...
+	|	|	act 47: Skipping repeating dividing character...
+	|	|	act 48: Found new element!
+	|	|	act 49: Found new element!
+	|	|	act 50: Skipping repeating dividing character...
+	|	|	act 51: Skipping repeating dividing character...
+	|	|	act 52: Skipping repeating dividing character...
+	|	|	act 53: Found new element!
+	|	|	act 54: Found new element!
+	|	|	act 55: Skipping repeating dividing character...
+	|	|	act 56: Found new element!
+	|	|	act 57: Found new element!
+	|	|	act 58: Skipping repeating dividing character...
+	|	|	act 59: Found new element!
+	|	|	act 60: Skipping repeating dividing character...
+	|	|	act 61: Found new element!
+	|	|	act 62: Found new element!
+	|	|	act 63: Skipping repeating dividing character...
+	|	|	act 64: Skipping repeating dividing character...
+	|	|	act 65: Found new element!
+	|	|	act 66: Found new element!
+	|	|	act 67: Skipping repeating dividing character...
+	|	|	act 68: Skipping repeating dividing character...
+	|	|	act 69: Found new element!
+	|	|	act 70: Found new element!
+	|	|	act 71: Found new element!
+	|	|	act 72: Skipping repeating dividing character...
+	|	|	act 73: Skipping repeating dividing character...
+	|	|	act 74: Found new element!
+	|	|	act 75: Found new element!
+	|	|	act 76: Found new element!
+	|	|	act 77: Skipping repeating dividing character...
+	|	|	act 78: Found new element!
+	|	|	act 79: Found new element!
+	|	|	act 80: Skipping repeating dividing character...
+	|	|	act 81: Found new element!
+	|	|	act 82: Skipping repeating dividing character...
+	|	|	act 83: Skipping repeating dividing character...
+	|	|	act 84: Found new element!
+	|	|	act 85: Found new element!
+	|	|	act 86: Skipping repeating dividing character...
+	|	|	act 87: Skipping repeating dividing character...
+	|	|	act 88: Found new element!
+	|	|	act 89: Found new element!
+	|	|	act 90: Found new element!
+	|	|	act 91: Skipping repeating dividing character...
+	|	|	act 92: Found new element!
+	|	|	act 93: Found new element!
+	|	|	act 94: Skipping repeating dividing character...
+	|	|	act 95: Found new element!
+	|	|	act 96: Skipping repeating dividing character...
+	|	|	act 97: Found new element!
+	|	|	act 98: Skipping repeating dividing character...
+	|	|	act 99: Found new element!
+	|	|	act 100: Skipping repeating dividing character...
+	|	|	act 101: Found new element!
+	|	|	act 102: Found new element!
+	|	|	act 103: Skipping repeating dividing character...
+	|	|	act 104: Skipping repeating dividing character...
+	|	|	act 105: Skipping repeating dividing character...
+	|	|	act 106: Skipping repeating dividing character...
+	|	|	act 107: Skipping repeating dividing character...
+	|	|	act 108: Found new element!
+	|	|	act 109: Skipping repeating dividing character...
+	|	|	act 110: Found new element!
+	|	|	act 111: Skipping repeating dividing character...
+	|	|	act 112: Skipping repeating dividing character...
+	|	|	act 113: Skipping repeating dividing character...
+	|	|	act 114: Found new element!
+	|	|	act 115: Found new element!
+	|	|	act 116: Skipping repeating dividing character...
+	|	|	act 117: Found new element!
+	|	|	act 118: Found new element!
+	|	|	act 119: Skipping repeating dividing character...
+	|	|	act 120: Found new element!
+	|	|	act 121: Skipping repeating dividing character...
+	|	|	act 122: Found new element!
+	|	|	act 123: Found new element!
+	|	|	act 124: Skipping repeating dividing character...
+	|	|	act 125: Found new element!
+	|	|	act 126: Skipping repeating dividing character...
+	|	|	act 127: Skipping repeating dividing character...
+	|	|	act 128: Skipping repeating dividing character...
+	|	|	act 129: Found new element!
+	|	|	act 130: Skipping repeating dividing character...
+	|	|	act 131: Found new element!
+	|	|	
+	|	|___divTextCtor_END___
+	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 136: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 137: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 138: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 139: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 140: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 146: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 147: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 148: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 149: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextDtor_CALL___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 153: Pointer (text) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___divTextDtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 157: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 158: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 159: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 160: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 161: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 197: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 198: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 199: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 200: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 201: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 237: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 238: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 239: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 240: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 241: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 277: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 278: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 279: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 280: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 281: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 316: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 317: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 318: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 319: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 320: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 356: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 357: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 358: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 359: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 360: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 366: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 367: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 368: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 369: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 370: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 405: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 406: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 407: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 408: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 409: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 444: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 445: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 446: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 447: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextDtor_CALL___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 451: Pointer (text) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___divTextDtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 454: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 455: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 456: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 457: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 458: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 494: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 495: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 496: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 497: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 498: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 534: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 535: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 536: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 537: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 538: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 573: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 574: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 575: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 576: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 577: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 612: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 613: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 614: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 615: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 616: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 651: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 652: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 653: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 654: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 655: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 691: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 692: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 693: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 694: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 697: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 698: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 699: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 700: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 701: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 736: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 737: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 738: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 739: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 740: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 775: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 776: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 777: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 778: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 779: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 815: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 816: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 817: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 818: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 819: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 826: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 827: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 828: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 829: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 830: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 865: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 866: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 867: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 868: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 871: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 872: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 873: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 874: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 875: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 910: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 911: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 912: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 913: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 914: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 949: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 950: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 951: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 952: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 953: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 961: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 962: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 963: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 964: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextDtor_CALL___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 968: Pointer (text) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___divTextDtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 970: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 971: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 972: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 973: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 978: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 979: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 980: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 981: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextDtor_CALL___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 985: Pointer (text) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___divTextDtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 987: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 988: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 989: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 990: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 994: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 995: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 996: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 997: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 998: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 1035: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1036: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1037: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1038: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1039: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 1075: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1076: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1077: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1078: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1079: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 1087: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1088: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1089: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1090: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1091: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 1126: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1127: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1128: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1129: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1130: Found new element!
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 1165: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1166: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1167: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1168: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 1171: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1172: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1173: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1174: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	
+	|	|	___divTextDtor_CALL___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1178: Pointer (text) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___divTextDtor_END___
+	|	|
+	|	|	
+	|	|	___divTextCtor_CALL___
+	|	|	|
+	|	|	|	act 1180: Dividing text by character (int 32)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1181: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1182: Pointer (result) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1183: Pointer (textBuf) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___divTextCtor_END___
+	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1189: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1190: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1191: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1192: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1193: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1202: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1203: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1204: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1205: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextDtor_CALL___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1209: Pointer (text) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___divTextDtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1213: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1214: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1215: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1216: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1217: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1253: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1254: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1255: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1256: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1257: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1293: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1294: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1295: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1296: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1297: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1333: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1334: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1335: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1336: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1337: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1372: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1373: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1374: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1375: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1376: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1412: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1413: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1414: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1415: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1416: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1424: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1425: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1426: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1427: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1428: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1463: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1464: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1465: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1466: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1467: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1502: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1503: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1504: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1505: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextDtor_CALL___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1509: Pointer (text) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___divTextDtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1512: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1513: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1514: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1515: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1516: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1552: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1553: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1554: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1555: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1556: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1592: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1593: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1594: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1595: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1596: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1631: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1632: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1633: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1634: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1635: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1670: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1671: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1672: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1673: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1674: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1709: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1710: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1711: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1712: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1713: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1749: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1750: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1751: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1752: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1755: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1756: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1757: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1758: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1759: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1794: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1795: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1796: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1797: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1798: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1833: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1834: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1835: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1836: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1837: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1873: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1874: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1875: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1876: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1877: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1886: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1887: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1888: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1889: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1890: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1925: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1926: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1927: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1928: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1931: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1932: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1933: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1934: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1935: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 1970: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1971: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1972: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1973: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1974: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 2009: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2010: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2011: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2012: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 2013: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 2021: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2022: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2023: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2024: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextDtor_CALL___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2028: Pointer (text) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___divTextDtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 2030: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2031: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2032: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2033: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 2038: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2039: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2040: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2041: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextDtor_CALL___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2045: Pointer (text) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___divTextDtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 2047: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2048: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2049: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2050: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 2054: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2055: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2056: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2057: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 2058: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 2095: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2096: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2097: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2098: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 2099: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 2135: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2136: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2137: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2138: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 2139: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 2147: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2148: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2149: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2150: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 2151: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 2186: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2187: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2188: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2189: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 2190: Found new element!
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 2225: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2226: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2227: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2228: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 2231: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2232: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2233: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2234: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextDtor_CALL___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2238: Pointer (text) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___divTextDtor_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___divTextCtor_CALL___
+	|	|	|	|
+	|	|	|	|	act 2240: Dividing text by character (int 32)...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2241: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2242: Pointer (result) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2243: Pointer (textBuf) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___divTextCtor_END___
+	|	|	|
+	|	
+	|	___divTextDtor_CALL___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 2247: Pointer (text) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|___divTextDtor_END___
+	|
+	|	
+	|	___textDtor_CALL___
+	|	|
+	|	|	act 2248: Destructing text (0x7ffebfc27920)...
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 2249: Pointer (textStruct) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___closeText_CALL___
+	|	|	|
+	|	|	|	act 2250: Closing text...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2251: Pointer (text) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___fileIsClosed_CALL___
+	|	|	|	|
+	|	|	|	|	act 2252: Checking if file is closed...
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2253: Pointer (text) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|___fileIsClosed_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2254: Pointer ((*text).file) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___closeText_END___
+	|	|
+	|	|	
+	|	|___textDtor_END___
+	|

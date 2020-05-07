@@ -1,0 +1,1742 @@
+
+LOG_INITIALIZATION #1
+
+=================================================
+	|
+	|___assemble_CALL___
+	|
+	|	
+	|	___ptrCheck_CALL___
+	|	|
+	|	|	act 0: Pointer (fileName) checking...
+	|	|	
+	|	|___ptrCheck_END___
+	|
+	|	
+	|	___addCommands_CALL___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 132: Pointer (*instruction) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 133: Pointer (jumpPointers) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 134: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 135: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 141: Adding command (JMP)...
+	|	|	act 142: Matching mark...
+	|	|	
+	|	|	___findMatchingMark_CALL___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 143: Pointer (curMarkName) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 144: Pointer (jumpPointers) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___findMatchingMark_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 145: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 150: Mark found!
+	|	|	
+	|	|	___bindMark_CALL___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 151: Pointer (curMarkName) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 152: Mark number: (1), ip is: (9)
+	|	|	|	
+	|	|	|___bindMark_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 154: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 155: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 156: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 162: Adding command (POP)...
+	|	|	act 163: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 194: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 195: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 196: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 202: Adding command (POP)...
+	|	|	act 203: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 234: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 235: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 236: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 242: Adding command (PUSH)...
+	|	|	act 243: Adding number...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 244: Checking typeid match of (cpu_data_t) and (rdm_data_t)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 275: Checking typeid match of (DATA_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 276: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 282: Adding command (PUSH)...
+	|	|	act 283: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 314: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 315: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 321: Adding command (PUSH)...
+	|	|	act 322: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 353: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 354: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 355: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 361: Adding command (JB)...
+	|	|	act 362: Matching mark...
+	|	|	
+	|	|	___findMatchingMark_CALL___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 363: Pointer (curMarkName) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 364: Pointer (jumpPointers) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___findMatchingMark_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 365: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 371: Adding command (PUSH)...
+	|	|	act 372: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 403: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 404: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 410: Adding command (PUSH)...
+	|	|	act 411: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 442: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 443: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 448: Mark found!
+	|	|	
+	|	|	___bindMark_CALL___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 449: Pointer (curMarkName) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 450: Mark number: (2), ip is: (88)
+	|	|	|	
+	|	|	|___bindMark_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 452: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 453: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 459: Adding command (POP)...
+	|	|	act 460: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 491: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 492: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 493: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 499: Adding command (POP)...
+	|	|	act 500: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 531: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 532: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 533: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 539: Adding command (POP)...
+	|	|	act 540: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 571: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 572: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 578: Adding command (PUSH)...
+	|	|	act 579: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 610: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 611: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 617: Adding command (PUSH)...
+	|	|	act 618: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 649: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 650: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 656: Adding command (PUSH)...
+	|	|	act 657: Adding number...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 658: Checking typeid match of (cpu_data_t) and (rdm_data_t)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 689: Checking typeid match of (DATA_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 690: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 695: Adding command (ADD)...
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 696: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 702: Adding command (POP)...
+	|	|	act 703: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 734: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 735: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 741: Adding command (PUSH)...
+	|	|	act 742: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 773: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 774: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 780: Adding command (PUSH)...
+	|	|	act 781: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 812: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 813: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 814: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 820: Adding command (JB)...
+	|	|	act 821: Matching mark...
+	|	|	
+	|	|	___findMatchingMark_CALL___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 822: Pointer (curMarkName) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 823: Pointer (jumpPointers) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|___findMatchingMark_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 824: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 825: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 831: Adding command (PUSH)...
+	|	|	act 832: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 863: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 864: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 869: Adding command (MUL)...
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 870: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 876: Adding command (PUSH)...
+	|	|	act 877: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 908: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 909: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 915: Adding command (PUSH)...
+	|	|	act 916: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 947: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 948: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 954: Adding command (CALL)...
+	|	|	act 955: Matching mark...
+	|	|	
+	|	|	___findMatchingMark_CALL___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 956: Pointer (curMarkName) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 957: Pointer (jumpPointers) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 958: Pointer (jumpPointers[searchPointers].name) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 959: Existing mark found, adding to instruction...
+	|	|	|	
+	|	|	|___findMatchingMark_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 960: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 965: Mark found!
+	|	|	
+	|	|	___bindMark_CALL___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 966: Pointer (curMarkName) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 967: Mark number: (3), ip is: (228)
+	|	|	|	
+	|	|	|___bindMark_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 969: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 974: Adding command (RET)...
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 975: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 976: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 977: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 982: Mark found!
+	|	|	
+	|	|	___bindMark_CALL___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 983: Pointer (curMarkName) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 984: Mark number: (4), ip is: (229)
+	|	|	|	
+	|	|	|___bindMark_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 986: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 991: Adding command (START)...
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 992: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 993: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 999: Adding command (PUSH)...
+	|	|	act 1000: Adding number...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 1001: Checking typeid match of (cpu_data_t) and (rdm_data_t)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 1032: Checking typeid match of (DATA_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 1033: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 1034: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 1040: Adding command (PUSH)...
+	|	|	act 1041: Adding number...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 1042: Checking typeid match of (cpu_data_t) and (rdm_data_t)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 1073: Checking typeid match of (DATA_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 1074: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 1080: Adding command (CALL)...
+	|	|	act 1081: Matching mark...
+	|	|	
+	|	|	___findMatchingMark_CALL___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1082: Pointer (curMarkName) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1083: Pointer (jumpPointers) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1084: Pointer (jumpPointers[searchPointers].name) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1085: Existing mark found, adding to instruction...
+	|	|	|	
+	|	|	|___findMatchingMark_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 1086: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 1092: Adding command (POP)...
+	|	|	act 1093: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 1124: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 1125: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 1131: Adding command (PRINT)...
+	|	|	act 1132: Adding register IDX to code-byte...
+	|	|	
+	|	|	___typeidCheck_CALL___
+	|	|	|
+	|	|	|	act 1163: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	
+	|	|	|___typeidCheck_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 1164: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 1169: Adding command (END)...
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 1170: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 1175: Mark found!
+	|	|	
+	|	|	___bindMark_CALL___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1176: Pointer (curMarkName) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1177: Mark number: (5), ip is: (280)
+	|	|	|	
+	|	|	|___bindMark_END___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 1179: Pointer (currentLine) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	act 1184: Adding command (END)...
+	|	|	
+	|	|	___addCommands_CALL___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1185: Pointer (*instruction) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1186: Pointer (jumpPointers) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1187: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1188: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1194: Adding command (JMP)...
+	|	|	|	act 1195: Matching mark...
+	|	|	|	
+	|	|	|	___findMatchingMark_CALL___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1196: Pointer (curMarkName) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1197: Pointer (jumpPointers) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1198: Pointer (jumpPointers[searchPointers].name) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1199: Pointer (jumpPointers[searchPointers].name) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1200: Existing mark found, adding to instruction...
+	|	|	|	|	
+	|	|	|	|___findMatchingMark_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1201: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1206: Mark found!
+	|	|	|	
+	|	|	|	___bindMark_CALL___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1207: Pointer (curMarkName) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1208: Mark number: (1), ip is: (9)
+	|	|	|	|	
+	|	|	|	|___bindMark_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1210: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1211: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1212: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1218: Adding command (POP)...
+	|	|	|	act 1219: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1250: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1251: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1252: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1258: Adding command (POP)...
+	|	|	|	act 1259: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1290: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1291: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1292: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1298: Adding command (PUSH)...
+	|	|	|	act 1299: Adding number...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1300: Checking typeid match of (cpu_data_t) and (rdm_data_t)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1331: Checking typeid match of (DATA_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1332: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1338: Adding command (PUSH)...
+	|	|	|	act 1339: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1370: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1371: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1377: Adding command (PUSH)...
+	|	|	|	act 1378: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1409: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1410: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1411: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1417: Adding command (JB)...
+	|	|	|	act 1418: Matching mark...
+	|	|	|	
+	|	|	|	___findMatchingMark_CALL___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1419: Pointer (curMarkName) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1420: Pointer (jumpPointers) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1421: Pointer (jumpPointers[searchPointers].name) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1422: Existing mark found, adding to instruction...
+	|	|	|	|	
+	|	|	|	|___findMatchingMark_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1423: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1429: Adding command (PUSH)...
+	|	|	|	act 1430: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1461: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1462: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1468: Adding command (PUSH)...
+	|	|	|	act 1469: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1500: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1501: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1506: Mark found!
+	|	|	|	
+	|	|	|	___bindMark_CALL___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1507: Pointer (curMarkName) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1508: Mark number: (2), ip is: (88)
+	|	|	|	|	
+	|	|	|	|___bindMark_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1510: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1511: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1517: Adding command (POP)...
+	|	|	|	act 1518: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1549: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1550: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1551: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1557: Adding command (POP)...
+	|	|	|	act 1558: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1589: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1590: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1591: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1597: Adding command (POP)...
+	|	|	|	act 1598: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1629: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1630: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1636: Adding command (PUSH)...
+	|	|	|	act 1637: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1668: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1669: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1675: Adding command (PUSH)...
+	|	|	|	act 1676: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1707: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1708: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1714: Adding command (PUSH)...
+	|	|	|	act 1715: Adding number...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1716: Checking typeid match of (cpu_data_t) and (rdm_data_t)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1747: Checking typeid match of (DATA_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1748: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1753: Adding command (ADD)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1754: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1760: Adding command (POP)...
+	|	|	|	act 1761: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1792: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1793: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1799: Adding command (PUSH)...
+	|	|	|	act 1800: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1831: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1832: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1838: Adding command (PUSH)...
+	|	|	|	act 1839: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1870: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1871: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1872: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1878: Adding command (JB)...
+	|	|	|	act 1879: Matching mark...
+	|	|	|	
+	|	|	|	___findMatchingMark_CALL___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1880: Pointer (curMarkName) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1881: Pointer (jumpPointers) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 1882: Pointer (jumpPointers[searchPointers].name) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 1883: Existing mark found, adding to instruction...
+	|	|	|	|	
+	|	|	|	|___findMatchingMark_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1884: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1885: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1891: Adding command (PUSH)...
+	|	|	|	act 1892: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1923: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1924: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1929: Adding command (MUL)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1930: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1936: Adding command (PUSH)...
+	|	|	|	act 1937: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1968: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 1969: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 1975: Adding command (PUSH)...
+	|	|	|	act 1976: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2007: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2008: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 2014: Adding command (CALL)...
+	|	|	|	act 2015: Matching mark...
+	|	|	|	
+	|	|	|	___findMatchingMark_CALL___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2016: Pointer (curMarkName) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2017: Pointer (jumpPointers) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2018: Pointer (jumpPointers[searchPointers].name) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 2019: Existing mark found, adding to instruction...
+	|	|	|	|	
+	|	|	|	|___findMatchingMark_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2020: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 2025: Mark found!
+	|	|	|	
+	|	|	|	___bindMark_CALL___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2026: Pointer (curMarkName) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 2027: Mark number: (3), ip is: (228)
+	|	|	|	|	
+	|	|	|	|___bindMark_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2029: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 2034: Adding command (RET)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2035: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2036: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2037: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 2042: Mark found!
+	|	|	|	
+	|	|	|	___bindMark_CALL___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2043: Pointer (curMarkName) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 2044: Mark number: (4), ip is: (229)
+	|	|	|	|	
+	|	|	|	|___bindMark_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2046: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 2051: Adding command (START)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2052: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2053: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 2059: Adding command (PUSH)...
+	|	|	|	act 2060: Adding number...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2061: Checking typeid match of (cpu_data_t) and (rdm_data_t)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2092: Checking typeid match of (DATA_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2093: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2094: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 2100: Adding command (PUSH)...
+	|	|	|	act 2101: Adding number...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2102: Checking typeid match of (cpu_data_t) and (rdm_data_t)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2133: Checking typeid match of (DATA_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2134: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 2140: Adding command (CALL)...
+	|	|	|	act 2141: Matching mark...
+	|	|	|	
+	|	|	|	___findMatchingMark_CALL___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2142: Pointer (curMarkName) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2143: Pointer (jumpPointers) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2144: Pointer (jumpPointers[searchPointers].name) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 2145: Existing mark found, adding to instruction...
+	|	|	|	|	
+	|	|	|	|___findMatchingMark_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2146: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 2152: Adding command (POP)...
+	|	|	|	act 2153: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2184: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2185: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 2191: Adding command (PRINT)...
+	|	|	|	act 2192: Adding register IDX to code-byte...
+	|	|	|	
+	|	|	|	___typeidCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2223: Checking typeid match of (REG_TYPE_C) and (char)...
+	|	|	|	|	
+	|	|	|	|___typeidCheck_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2224: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 2229: Adding command (END)...
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2230: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 2235: Mark found!
+	|	|	|	
+	|	|	|	___bindMark_CALL___
+	|	|	|	|
+	|	|	|	|	
+	|	|	|	|	___ptrCheck_CALL___
+	|	|	|	|	|
+	|	|	|	|	|	act 2236: Pointer (curMarkName) checking...
+	|	|	|	|	|	
+	|	|	|	|	|___ptrCheck_END___
+	|	|	|	|
+	|	|	|	|	act 2237: Mark number: (5), ip is: (280)
+	|	|	|	|	
+	|	|	|	|___bindMark_END___
+	|	|	|
+	|	|	|	
+	|	|	|	___ptrCheck_CALL___
+	|	|	|	|
+	|	|	|	|	act 2239: Pointer (currentLine) checking...
+	|	|	|	|	
+	|	|	|	|___ptrCheck_END___
+	|	|	|
+	|	|	|	act 2244: Adding command (END)...
+	|	|	|	
+	|	|	|___addCommands_END___
+	|	|
+	|	|	
+	|	|___addCommands_END___
+	|
+	|	
+	|	___byteCodeFileCreate_CALL___
+	|	|
+	|	|	act 2245: Byte Code file creation...
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 2246: Pointer (instruction) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|___byteCodeFileCreate_END___
+	|
+	|	
+	|___assemble_END___
+

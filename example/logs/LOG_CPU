@@ -1,0 +1,96 @@
+
+LOG_INITIALIZATION #49
+
+=================================================
+	|
+	|___cpuCtor_CALL___
+	|
+	|	
+	|	___ptrCheck_CALL___
+	|	|
+	|	|	act 2255: Pointer (machine) checking...
+	|	|	
+	|	|___ptrCheck_END___
+	|
+	|	act 2256: Constructing mathStack...
+	|	act 2283: Constructing ipStack...
+	|	
+	|	___typeidCheck_CALL___
+	|	|
+	|	|	act 2310: Checking typeid match of (cpu_data_t) and (stack_data_t)...
+	|	|	
+	|	|___typeidCheck_END___
+	|
+	|	
+	|___cpuCtor_END___
+
+	|
+	|___loadInstuction_CALL___
+	|
+	|	
+	|	___ptrCheck_CALL___
+	|	|
+	|	|	act 2311: Pointer (softCpu) checking...
+	|	|	
+	|	|___ptrCheck_END___
+	|
+	|	
+	|	___removeInstruction_CALL___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 2312: Pointer (softCpu) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+	|	|	
+	|	|___removeInstruction_END___
+	|
+	|	act 2313: Uploading code...
+	|	
+	|___loadInstuction_END___
+
+	|
+	|___runProgram_CALL___
+	|
+	|	
+	|	___ptrCheck_CALL___
+	|	|
+	|	|	act 2314: Pointer (machine) checking...
+	|	|	
+	|	|___ptrCheck_END___
+	|
+	|	act 2315: Starting CPU (see another created log-file for more info)...
+	|	|	act 7779: End of the soft-CPU programm...
+	|	
+	|___runProgram_END___
+
+	|
+	|___cpuDtor_CALL___
+	|
+	|	
+	|	___ptrCheck_CALL___
+	|	|
+	|	|	act 7780: Pointer (machine) checking...
+	|	|	
+	|	|___ptrCheck_END___
+	|
+	|	
+	|	___removeInstruction_CALL___
+	|	|
+	|	|	
+	|	|	___ptrCheck_CALL___
+	|	|	|
+	|	|	|	act 7831: Pointer (softCpu) checking...
+	|	|	|	
+	|	|	|___ptrCheck_END___
+	|	|
+CONSIDER!
+There is no instruction!
+	|	|	
+	|	|___removeInstruction_END___
+	|
+	|	
+	|___cpuDtor_END___
+
